@@ -1,4 +1,4 @@
-react-three-sample
+react-three-tictactoe
 ===========
 
 This is a simple implementation of `tic-tac-toe` game using [three.js](https://threejs.org) in `React` application.
@@ -17,6 +17,8 @@ I will be using the following modules to help implement `three.js` in `React`:
   
 * [@react-spring/three](https://github.com/pmdrs/react-spring#readme), a spring-physics animation library.
 
+The tic-tac-toe game logic is based from the `React` [tutorial](https://reactjs.org/tutorial/tutorial.html).
+
 # Development
 
 > This is a work in progress...
@@ -26,7 +28,7 @@ I will be using the following modules to help implement `three.js` in `React`:
 Clone the repository and install the dependencies
 
 ```sh
-$ git clone https://github.com/supershaneski/react-three-sample.git myproject
+$ git clone https://github.com/supershaneski/react-three-tictactoe.git myproject
 
 $ cd myproject
 
