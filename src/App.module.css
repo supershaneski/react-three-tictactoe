@@ -1,0 +1,121 @@
+@font-face {
+    font-family: marhey;
+    src: url(./assets/Marhey-Regular.ttf);
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+}
+
+.container * {
+    font-family: marhey;
+}
+
+.board {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    padding: 2em 1em;
+    box-sizing: border-box;
+}
+
+.title {
+    position: relative;
+    margin: 0;
+    text-align: center;
+    font-size: calc(10vmin + 5px);
+    color: #FFF;
+}
+
+.turn {
+    position: absolute;
+    left: 0;
+    top: 7em;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+}
+.text {
+    font-size: 1.5em;
+    color: #FFF;
+}
+.textBlink {
+    font-size: 1.5em;
+    color: #FFF;
+}
+
+.overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start {
+    position: relative;
+    background-color: transparent;
+    border: 3px solid #FFF;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+}
+.start:hover {
+    border-color: #646cff;
+    color: #646cff;
+}
+.action {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.again {
+    position: relative;
+    background-color: transparent;
+    border: 3px solid #FFF;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+}
+.again:hover {
+    border-color: #646cff;
+    color: #646cff;
+}
+.subtitle {
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    color: #FFF;
+    text-align: center;
+    margin: 0 0 2em 0;
+    line-height: 140%;
+}
+
+@media (min-width: 400px) {
+
+    .title {
+        font-size: calc(10vmin + 5px);
+        color: #FFF;
+    }
+
+}
